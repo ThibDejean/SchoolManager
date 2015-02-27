@@ -28,12 +28,69 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.B_Teacher = new System.Windows.Forms.Button();
+            this.B_ClassRoom = new System.Windows.Forms.Button();
+            this.classRoomControl1 = new SchoolManger.ClassRoomControl();
+            this.teacherControl1 = new SchoolManger.TeacherControl();
+            this.SuspendLayout();
+            // 
+            // B_Teacher
+            // 
+            this.B_Teacher.Location = new System.Drawing.Point(26, 51);
+            this.B_Teacher.Name = "B_Teacher";
+            this.B_Teacher.Size = new System.Drawing.Size(75, 23);
+            this.B_Teacher.TabIndex = 0;
+            this.B_Teacher.Text = "Professeur";
+            this.B_Teacher.UseVisualStyleBackColor = true;
+            this.B_Teacher.Click += new System.EventHandler(this.B_Teacher_Click);
+            // 
+            // B_ClassRoom
+            // 
+            this.B_ClassRoom.Location = new System.Drawing.Point(26, 98);
+            this.B_ClassRoom.Name = "B_ClassRoom";
+            this.B_ClassRoom.Size = new System.Drawing.Size(75, 23);
+            this.B_ClassRoom.TabIndex = 2;
+            this.B_ClassRoom.Text = "Classes";
+            this.B_ClassRoom.UseVisualStyleBackColor = true;
+            this.B_ClassRoom.Click += new System.EventHandler(this.B_ClassRoom_Click);
+            // 
+            // classRoomControl1
+            // 
+            this.classRoomControl1.Location = new System.Drawing.Point(146, 15);
+            this.classRoomControl1.Name = "classRoomControl1";
+            this.classRoomControl1.Size = new System.Drawing.Size(797, 387);
+            this.classRoomControl1.TabIndex = 3;
+            this.classRoomControl1.Visible = false;
+            // 
+            // teacherControl1
+            // 
+            this.teacherControl1.Location = new System.Drawing.Point(315, 51);
+            this.teacherControl1.Name = "teacherControl1";
+            this.teacherControl1.Size = new System.Drawing.Size(288, 259);
+            this.teacherControl1.TabIndex = 1;
+            this.teacherControl1.Visible = false;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1024, 414);
+            this.Controls.Add(this.classRoomControl1);
+            this.Controls.Add(this.B_ClassRoom);
+            this.Controls.Add(this.teacherControl1);
+            this.Controls.Add(this.B_Teacher);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button B_Teacher;
+        private TeacherControl teacherControl1;
+        private System.Windows.Forms.Button B_ClassRoom;
+        private ClassRoomControl classRoomControl1;
     }
 }
 

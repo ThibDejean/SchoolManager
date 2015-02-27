@@ -16,5 +16,17 @@ namespace SchoolManger
         {
             InitializeComponent();
         }
+
+        private void B_Teacher_Click(object sender, EventArgs e)
+        {
+            teacherControl1.Show();
+            classRoomControl1.Hide();
+        }
+
+        private void B_ClassRoom_Click(object sender, EventArgs e)
+        {
+            teacherControl1.Hide();
+            classRoomControl1.Show();
+        }
     }
 }

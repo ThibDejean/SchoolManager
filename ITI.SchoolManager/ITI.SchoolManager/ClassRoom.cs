@@ -12,6 +12,22 @@ namespace ITI.SchoolManager
         int _numberOfEmptySeat;
         int _numberOfStudent;
 
+        #region getter and setter
+        public Teacher ClasseRoomTeacher
+        {
+            get { return _classRoomTeacher; }
+        }
+
+        public int NumberOfEmptySeat
+        {
+            get { return _numberOfEmptySeat; }
+        }
+        public int NumberOfStudent
+        {
+            get { return _numberOfStudent; }
+        }
+        #endregion
+
         public ClassRoom(int seat, int student, Teacher classTeacher)
         {
             _numberOfEmptySeat = seat;

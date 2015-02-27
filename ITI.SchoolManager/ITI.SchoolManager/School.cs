@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace ITI.SchoolManager
 {
-    class School
+    public class School
     {
+        List<ClassRoom> _classRoomList;
+        string _schoolName;
+
+        public List<ClassRoom> ClassRoomList
+        {
+            get { return _classRoomList; }
+        }
+
+        public string SchoolName
+        {
+            get { return _schoolName; }
+        }
     }
 }
