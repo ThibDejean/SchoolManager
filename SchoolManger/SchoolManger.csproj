@@ -82,9 +82,6 @@
     <EmbeddedResource Include="TeacherControl.resx">
       <DependentUpon>TeacherControl.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="Properties\DataSources\ITI.SchoolManager.ClassRoom.datasource" />
-    <None Include="Properties\DataSources\ITI.SchoolManager.School.datasource" />
-    <None Include="Properties\DataSources\ITI.SchoolManager.Teacher.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

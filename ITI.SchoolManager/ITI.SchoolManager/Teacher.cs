@@ -16,14 +16,19 @@ namespace ITI.SchoolManager
         public string FirstName
         {
             get { return _firstName; }
+            set { _firstName = value; }
         }
         public string LastName
         {
             get { return _lastName; }
+            set { _lastName = value; }
+
         }
         public bool IsPresent
         {
             get { return _isPresent; }
+            set { _isPresent = value; }
+
         }
         #endregion
 
@@ -40,6 +45,11 @@ namespace ITI.SchoolManager
             _firstName = firstName;
             _lastName = lastName;
             _isPresent = present;
+        }
+
+        public Teacher()
+        {
+
         }
 
 

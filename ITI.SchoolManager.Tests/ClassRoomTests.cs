@@ -13,7 +13,7 @@ namespace ITI.SchoolManager.Tests
         [Test]
         public void Constructor_test()
         {
-            ClassRoom classroom = new ClassRoom(3, 18, new Teacher("Jean", "Dupond", true));
+            ClassRoom classroom = new ClassRoom(3, 18, new Teacher("Jean", "Dupond", true),"CP");
             int nbSeat = classroom.NumberOfEmptySeat;
             int nbStudent = classroom.NumberOfStudent;
             Teacher toto = classroom.ClasseRoomTeacher;
@@ -27,9 +27,9 @@ namespace ITI.SchoolManager.Tests
         [Test]
         public void Modify_classroom()
         {
-            ClassRoom classroom = new ClassRoom(3, 18, new Teacher("Jean", "Dupond", true));
+            ClassRoom classroom = new ClassRoom(3, 18, new Teacher("Jean", "Dupond", true),"CP");
             Teacher jojo = new Teacher("Jeanne", "Pouet", true);
-            classroom.ModifyClass(4, 17, jojo);
+            classroom.ModifyClass(4, 17, jojo,"CE1");
             int nbSeat = classroom.NumberOfEmptySeat;
             int nbStudent = classroom.NumberOfStudent;
             Teacher toto = classroom.ClasseRoomTeacher;

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<School xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ClassRoomList>
+    <ClassRoom>
+      <ClasseRoomTeacher>
+        <FirstName>jeanjako</FirstName>
+        <LastName>délavega</LastName>
+        <IsPresent>true</IsPresent>
+      </ClasseRoomTeacher>
+      <NumberOfEmptySeat>4</NumberOfEmptySeat>
+      <NumberOfStudent>14</NumberOfStudent>
+      <ClassRoomName>CP</ClassRoomName>
+    </ClassRoom>
+    <ClassRoom>
+      <ClasseRoomTeacher>
+        <FirstName>juju</FirstName>
+        <LastName>jojo</LastName>
+        <IsPresent>true</IsPresent>
+      </ClasseRoomTeacher>
+      <NumberOfEmptySeat>8</NumberOfEmptySeat>
+      <NumberOfStudent>18</NumberOfStudent>
+      <ClassRoomName>CE1</ClassRoomName>
+    </ClassRoom>
+  </ClassRoomList>
+  <SchoolName>Ecole des ollières</SchoolName>
+</School>
