@@ -1,25 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <School xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CountClassRoom>1</CountClassRoom>
   <ClassRoomList>
     <ClassRoom>
       <ClasseRoomTeacher>
-        <FirstName>jeanjako</FirstName>
-        <LastName>délavega</LastName>
-        <IsPresent>true</IsPresent>
+        <FirstName>j1</FirstName>
+        <LastName>j1</LastName>
+        <IsPresent>false</IsPresent>
       </ClasseRoomTeacher>
-      <NumberOfEmptySeat>4</NumberOfEmptySeat>
-      <NumberOfStudent>14</NumberOfStudent>
+      <NumberOfEmptySeat>6</NumberOfEmptySeat>
+      <NumberOfStudent>5</NumberOfStudent>
       <ClassRoomName>CP</ClassRoomName>
     </ClassRoom>
     <ClassRoom>
       <ClasseRoomTeacher>
-        <FirstName>juju</FirstName>
-        <LastName>jojo</LastName>
+        <FirstName>j2</FirstName>
+        <LastName>j2</LastName>
         <IsPresent>true</IsPresent>
       </ClasseRoomTeacher>
-      <NumberOfEmptySeat>8</NumberOfEmptySeat>
-      <NumberOfStudent>18</NumberOfStudent>
+      <NumberOfEmptySeat>2</NumberOfEmptySeat>
+      <NumberOfStudent>5</NumberOfStudent>
       <ClassRoomName>CE1</ClassRoomName>
+    </ClassRoom>
+    <ClassRoom>
+      <ClasseRoomTeacher>
+        <FirstName>j3</FirstName>
+        <LastName>j3</LastName>
+        <IsPresent>true</IsPresent>
+      </ClasseRoomTeacher>
+      <NumberOfEmptySeat>13</NumberOfEmptySeat>
+      <NumberOfStudent>16</NumberOfStudent>
+      <ClassRoomName>CE2</ClassRoomName>
     </ClassRoom>
   </ClassRoomList>
   <SchoolName>Ecole des ollières</SchoolName>

@@ -32,7 +32,6 @@
             this.B_ClassRoom = new System.Windows.Forms.Button();
             this.classRoomControl1 = new SchoolManger.ClassRoomControl();
             this.teacherControl1 = new SchoolManger.TeacherControl();
-            this.L_Test = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // B_Teacher
@@ -57,35 +56,25 @@
             // 
             // classRoomControl1
             // 
-            this.classRoomControl1.Location = new System.Drawing.Point(195, 12);
+            this.classRoomControl1.Location = new System.Drawing.Point(205, 12);
             this.classRoomControl1.Name = "classRoomControl1";
-            this.classRoomControl1.Size = new System.Drawing.Size(749, 387);
+            this.classRoomControl1.Size = new System.Drawing.Size(770, 493);
             this.classRoomControl1.TabIndex = 3;
             this.classRoomControl1.Visible = false;
             // 
             // teacherControl1
             // 
-            this.teacherControl1.Location = new System.Drawing.Point(315, 51);
+            this.teacherControl1.Location = new System.Drawing.Point(238, 30);
             this.teacherControl1.Name = "teacherControl1";
-            this.teacherControl1.Size = new System.Drawing.Size(288, 259);
+            this.teacherControl1.Size = new System.Drawing.Size(663, 390);
             this.teacherControl1.TabIndex = 1;
             this.teacherControl1.Visible = false;
-            // 
-            // L_Test
-            // 
-            this.L_Test.AutoSize = true;
-            this.L_Test.Location = new System.Drawing.Point(21, 240);
-            this.L_Test.Name = "L_Test";
-            this.L_Test.Size = new System.Drawing.Size(35, 13);
-            this.L_Test.TabIndex = 4;
-            this.L_Test.Text = "label1";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1024, 414);
-            this.Controls.Add(this.L_Test);
+            this.ClientSize = new System.Drawing.Size(1040, 517);
             this.Controls.Add(this.classRoomControl1);
             this.Controls.Add(this.B_ClassRoom);
             this.Controls.Add(this.teacherControl1);
@@ -95,7 +84,6 @@
             this.Deactivate += new System.EventHandler(this.Form1_Deactivate);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -105,7 +93,6 @@
         private TeacherControl teacherControl1;
         private System.Windows.Forms.Button B_ClassRoom;
         private ClassRoomControl classRoomControl1;
-        private System.Windows.Forms.Label L_Test;
     }
 }
 
